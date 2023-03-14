@@ -16,9 +16,9 @@ var symbolCharCode = '@,.+-=/*()';
 function generatePassword() {
 
   function getCharacterAmount() {
-    let charactersAmount = prompt("how many character would you like in you password?(Input 8-126)");
-    if (!(charactersAmount >= 8 && charactersAmount <= 126)) {
-      alert("The number you input has to be between 8 and 126")
+    let charactersAmount = prompt("how many character would you like in you password?(Input 8-128)");
+    if (!(charactersAmount >= 8 && charactersAmount <= 128)) {
+      alert("The number you input has to be between 8 and 128")
      getCharacterAmount()
     }
   
