@@ -35,11 +35,11 @@ function generatePassword() {
 
   // lowercaseCharCode = prompt("do you want lowercase letters in your password?")
 
-  let includeNumbers = confirm("Do Yyou want to include number?")
+  let includeNumbers = confirm("Do you want to include numbers?")
 
-  let includeUppercase = confirm("Do you want uppercase letters in your password?")
+  let includeUppercase = confirm("Do you want to include uppercase?")
 
-  let includeSymbols = confirm("Do you want symbols in your password?")
+  let includeSymbols = confirm("Do you want to include symbols?")
 
 
   console.log(numberCharCode)
